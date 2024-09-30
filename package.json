@@ -1,7 +1,7 @@
 {
-  "name": "strapi-quickstart-platformsh",
+  "name": "app",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -11,35 +11,28 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/admin": "^4.3.2",
-    "@strapi/plugin-content-manager": "^4.3.2",
-    "@strapi/plugin-content-type-builder": "^4.3.2",
-    "@strapi/plugin-email": "^4.3.2",
-    "@strapi/plugin-graphql": "^4.3.2",
-    "@strapi/plugin-i18n": "^4.3.2",
-    "@strapi/plugin-upload": "^4.3.2",
-    "@strapi/plugin-users-permissions": "^4.3.2",
-    "@strapi/strapi": "^4.3.2",
-    "@strapi/utils": "^4.3.2",
-    "better-sqlite3": "^7.4.6",
-    "dotenv": "^16.0.1",
-    "knex": "0.21.18",
-    "mysql": "^2.18.1",
-    "pg": "^8.7.3",
-    "platformsh-config": "^2.4.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.1"
+    "knex": "<0.20.0",
+    "pg": "^8.5.1",
+    "sqlite3": "^5.0.1",
+    "strapi": "3.4.1",
+    "strapi-admin": "3.4.1",
+    "strapi-connector-bookshelf": "3.4.1",
+    "strapi-plugin-content-manager": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-plugin-email": "3.4.1",
+    "strapi-plugin-upload": "3.4.1",
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-provider-upload-aws-s3": "^3.4.2",
+    "strapi-utils": "3.4.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "32967971-3f95-46c1-a4bb-99af312183da"
+    "uuid": "2edd9058-38a2-49cc-9aa6-8557bcab5b17"
   },
   "engines": {
-    "node": ">=14.x.x <=18.x.x",
+    "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

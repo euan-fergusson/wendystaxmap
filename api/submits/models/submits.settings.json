@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submits",
+  "info": {
+    "name": "Submits",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "opportunity": {
+      "type": "string"
+    },
+    "restaurants": {
+      "type": "string"
+    },
+    "businessPartner": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "funds": {
+      "type": "string"
+    },
+    "internationalBox": {
+      "type": "string"
+    },
+    "net": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "revised": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
