@@ -66,7 +66,7 @@ variables:
 # More information: https://docs.platform.sh/create-apps/app-reference.html#build
 build:
   # Use Yarn instead of npm.
-  flavor: npm
+  flavor: node
 
 # Installs global dependencies as part of the build process. They’re independent of your app’s dependencies and
 # are available in the PATH during the build process and in the runtime environment. They’re installed before
@@ -82,5 +82,4 @@ hooks:
   # The build hook is run after any build flavor.
   # More information: https://docs.platform.sh/create-apps/hooks/hooks-comparison.html#build-hook
   build: |
-    make build
-    make run
+    npm run develop
