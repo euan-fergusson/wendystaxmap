@@ -5,7 +5,7 @@ console.log("================================");
 console.log(!config.inBuild());
 console.log("================================");
 
-if (config.isValidPlatform() && !config.inBuild()) {
+if (config.isValidPlatform() && config.inBuild()) {
 
   console.log("hello world2");
 
