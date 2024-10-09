@@ -2,6 +2,7 @@ const path = require("path");
 const config = require("platformsh-config").config();
 
 console.log("hello world");
+console.dir(config);
 
 if (config.isValidPlatform() && !config.inBuild()) {
 
