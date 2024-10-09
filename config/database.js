@@ -2,7 +2,7 @@ const path = require("path");
 const config = require("platformsh-config").config();
 
 console.log("================================");
-console.dir(config.isValidPlatform());
+console.log(!config.inBuild());
 console.log("================================");
 
 if (config.isValidPlatform() && !config.inBuild()) {
