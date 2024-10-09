@@ -1,7 +1,11 @@
 const path = require("path");
 const config = require("platformsh-config").config();
 
+console.log("hello world");
+
 if (config.isValidPlatform() && !config.inBuild()) {
+
+  console.log("hello world2");
 
   // Platform.sh database configuration.
   const credentials = config.credentials(dbRelationship);
