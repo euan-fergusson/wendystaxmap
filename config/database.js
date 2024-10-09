@@ -1,17 +1,15 @@
 const path = require("path");
 const config = require("platformsh-config").config();
 
-console.log("================================");
-console.log(!config.inBuild());
-console.log("================================");
-
 if (config.isValidPlatform() && config.inBuild()) {
 
 
-
+  console.log("================================");
+  console.log("hello world");
+  console.log("================================");
   // Platform.sh database configuration.
   const credentials = config.credentials(dbRelationship);
-  console.log("hello world 3");
+  console.log("hello world again");
   console.log(
     `Using Platform.sh configuration with relationship ${dbRelationship}.`
   );
