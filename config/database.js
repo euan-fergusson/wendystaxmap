@@ -7,10 +7,11 @@ console.log("================================");
 
 if (config.isValidPlatform() && config.inBuild()) {
 
-  console.log("hello world2");
+
 
   // Platform.sh database configuration.
   const credentials = config.credentials(dbRelationship);
+  console.log("hello world 3");
   console.log(
     `Using Platform.sh configuration with relationship ${dbRelationship}.`
   );
