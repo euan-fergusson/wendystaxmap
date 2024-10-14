@@ -9,7 +9,7 @@ if (config.isValidPlatform() && config.inBuild()) {
   console.log("hello world");
   console.log("================================");
   // Platform.sh database configuration.
-  const credentials = config.credentials("dbpostgres:postgresql");
+  const credentials = config.credentials(dbRelationship);
   console.log("hello world again");
   console.log(
     `Using Platform.sh configuration with relationship ${dbRelationship}.`
