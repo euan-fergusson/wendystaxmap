@@ -1,5 +1,6 @@
 const path = require("path");
 const config = require("platformsh-config").config();
+let dbRelationship = "postgresdatabase";
 
 if (config.isValidPlatform() && config.inBuild()) {
 
