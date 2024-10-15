@@ -2,6 +2,8 @@ const path = require("path");
 const config = require("platformsh-config").config();
 let dbRelationship = "postgresdatabase";
 
+// this line rajesh ^^^^^^
+
 if (config.isValidPlatform() && config.inBuild()) {
 
 
@@ -40,7 +42,7 @@ if (config.isValidPlatform() && config.inBuild()) {
       pool,
     },
   };
-  
+
   module.exports = ({ env }) => ({
     defaultConnection: 'default',
     connections: {
