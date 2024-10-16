@@ -2,7 +2,7 @@ const path = require("path");
 const config = require("platformsh-config").config();
 let dbRelationship = "postgresdatabase";
 
-// this line rajesh ^^^^^^
+// this line rajesh ^^^^^^ test
 
 if (config.isValidPlatform() && config.inBuild()) {
 
